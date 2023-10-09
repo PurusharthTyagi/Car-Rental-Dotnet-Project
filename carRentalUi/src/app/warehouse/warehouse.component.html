@@ -1,0 +1,88 @@
+<mat-card>
+  <mat-card-content>
+    <div><h1>Cars</h1></div>
+    <button
+      *ngIf="checkForAdminRole()"
+      class="but"
+      mat-raised-button
+      color="accent"
+      (click)="AddCar()"
+    >
+      Add New Car
+    </button>
+  </mat-card-content>
+</mat-card>
+<div class="filters">
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Maker"
+    [(ngModel)]="filterTerm"
+  />
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Model"
+    [(ngModel)]="filterText"
+  />
+  <input
+    type="text"
+    class="form-control"
+    placeholder="Price"
+    [(ngModel)]="filterPrice"
+  />
+</div>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Maker</th>
+      <th>Model</th>
+      <th>Rental Price Per Day</th>
+      <th>Available</th>
+      <th>Registration No.</th>
+      <th>Order Car</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container
+      *ngFor="
+        let car of carsToDisplay
+          | maker : filterTerm
+          | model : filterText
+          | rentalPrice : filterPrice
+      "
+    >
+      <tr>
+        <td>{{ car.maker }}</td>
+        <td>{{ car.model }}</td>
+        <td>{{ car.rentalPricePerDay | currency : "USD" }}</td>
+        <td>{{ car.isAvailable ? "Yes" : "No" }}</td>
+        <td>{{ car.registrationNo }}</td>
+        <td>
+          <!-- order.component.html -->
+
+          <button mat-button class="accent-button" (click)="orderCar(car)">
+            Order Car
+          </button>
+
+          <button
+            *ngIf="checkForAdminRole()"
+            mat-icon-button
+            color="grey"
+            (click)="editCar(car)"
+          >
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button
+            *ngIf="checkForAdminRole()"
+            mat-icon-button
+            color="warn"
+            (click)="deleteCar(car)"
+          >
+            <mat-icon>delete</mat-icon>
+          </button>
+        </td>
+      </tr>
+    </ng-container>
+  </tbody>
+</table>

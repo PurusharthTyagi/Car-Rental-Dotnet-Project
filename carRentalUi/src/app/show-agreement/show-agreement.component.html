@@ -1,0 +1,56 @@
+<!-- show-agreement.component.html -->
+<div class="rental-agreements">
+  <h2>My Rental Agreements</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Agreement ID</th>
+        <th>Car ID</th>
+        <th>User ID</th>
+        <th>Total Cost</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let agreement of agreementToDisplay">
+        <tr>
+          <td>{{ agreement.rentalAgreementId }}</td>
+          <td>{{ agreement.carId }}</td>
+          <td>{{ agreement.userId }}</td>
+          <td>{{ agreement.totalCost | currency : "USD" }}</td>
+          <td *ngIf="!checkForAdminRole()">
+            <button
+              class="but"
+              mat-raised-button
+              color="accent"
+              (click)="returnCar(agreement.rentalAgreementId)"
+              *ngIf="!agreement.requestForReturn"
+            >
+              Return
+            </button>
+            <span
+              *ngIf="
+                agreement.requestForReturn && !agreement.returnRequestAccepted
+              "
+            >
+              Requested !
+            </span>
+            <span *ngIf="agreement.returnRequestAccepted">Returned !</span>
+          </td>
+          <td *ngIf="checkForAdminRole()">
+            <button
+              class="but"
+              mat-raised-button
+              color="accent"
+              (click)="approveReturnCar(agreement.rentalAgreementId)"
+              *ngIf="!agreement.returnRequestAccepted"
+            >
+              Approve
+            </button>
+            <span *ngIf="agreement.returnRequestAccepted"> Approved ! </span>
+          </td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>

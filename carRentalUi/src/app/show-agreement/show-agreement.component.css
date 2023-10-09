@@ -1,0 +1,47 @@
+/* show-agreement.component.css */
+
+.rental-agreements {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #fff; /* Purple color for the header */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border: 1px solid #ddd; /* Add a border around the table */
+}
+
+thead {
+  background-color: #7b1fa2; /* Purple color for table header row */
+  color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* Add a border below each row */
+}
+
+/* Style the total cost cell differently */
+td:last-child {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+button {
+  margin: 10px;
+}
+button:hover {
+  background-color: rgb(142, 142, 185);
+}
+.but {
+  margin-left: 50px;
+}

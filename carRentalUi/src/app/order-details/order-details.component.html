@@ -1,0 +1,66 @@
+<div *ngIf="carDetails" class="car-details-container">
+  <h2>Car Details</h2>
+  <table>
+    <tr>
+      <td><strong>ID:</strong> {{ carDetails.carId }}</td>
+    </tr>
+    <tr>
+      <td><strong>Maker:</strong> {{ carDetails.maker }}</td>
+    </tr>
+    <tr>
+      <td><strong>Model:</strong> {{ carDetails.model }}</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Rental Price Per Day:</strong>
+        {{ carDetails.rentalPricePerDay | currency : "USD" }}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Is Available:</strong>
+        {{ carDetails.isAvailable ? "Yes" : "No" }}
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <strong>Registration Number:</strong> {{ carDetails.registrationNo }}
+      </td>
+    </tr>
+    <!-- Add an input field for the number of days -->
+    <br />
+    <tr>
+      <td>
+        <mat-form-field appearance="outline" color="accent">
+          <mat-label>Number of Days</mat-label>
+          <input
+            matInput
+            type="number"
+            [(ngModel)]="numberOfDays"
+            (ngModelChange)="onNumberOfDaysChange()"
+          />
+        </mat-form-field>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <!-- Display the total cost -->
+        <strong>Total Cost:</strong> {{ totalCost | currency : "USD" }}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <!-- Display the total cost -->
+        <strong>End Date:</strong> {{ endDate | date }}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button mat-raised-button color="accent" (click)="bookCar(carDetails)">
+          Book
+        </button>
+      </td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,19 @@
+<mat-list role="list">
+  <ng-container>
+    <mat-list-item
+      role="listitem"
+      routerLink="/{{ sideNavContent[0].link }}"
+      routerLinkActive="active"
+    >
+      {{ sideNavContent[0].title | titlecase }}
+    </mat-list-item>
+    <mat-list-item
+      role="listitem"
+      routerLink="/{{ sideNavContent[1].link }}"
+      routerLinkActive="active"
+      *ngIf="isThere()"
+    >
+      {{ sideNavContent[1].title | titlecase }}
+    </mat-list-item>
+  </ng-container>
+</mat-list>

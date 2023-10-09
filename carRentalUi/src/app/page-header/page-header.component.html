@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <button mat-icon-button (click)="menuClicked.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <h1>CAR RENTAL</h1>
+
+  <div class="user-info">
+    <span *ngIf="isThere()">
+      Hi, {{ name }} !
+      <!-- {{this.api.getTokenUserInfo()?.firstName | titlecase}}  -->
+    </span>
+    <button mat-icon-button [matMenuTriggerFor]="userMenu">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+  </div>
+
+  <mat-menu #userMenu="matMenu">
+    <button mat-menu-item *ngIf="!isThere()" (click)="login()">
+      <mat-icon>login</mat-icon>
+      <span>Login</span>
+    </button>
+    <button mat-menu-item *ngIf="isThere()" (click)="logout()">
+      <mat-icon>logout</mat-icon>
+      <span>Log Out</span>
+    </button>
+  </mat-menu>
+</mat-toolbar>

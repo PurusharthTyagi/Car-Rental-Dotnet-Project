@@ -1,0 +1,76 @@
+<h2>Edit Car</h2>
+
+<form [formGroup]="carForm" (ngSubmit)="updateCar()" class="vertical-form">
+  <mat-form-field appearance="outline" color="accent">
+    <mat-label>Maker</mat-label>
+
+    <input matInput formControlName="maker" required />
+
+    <mat-error *ngIf="carForm.controls['maker'].hasError('required')"
+      >Maker is required.</mat-error
+    >
+
+  
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" color="accent">
+    <mat-label>Model</mat-label>
+
+    <input matInput formControlName="model" required />
+
+    <mat-error *ngIf="carForm.controls['model'].hasError('required')"
+      >Model is required.</mat-error
+    >
+
+ 
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" color="accent">
+    <mat-label>Rental Price Per Day</mat-label>
+
+    <input
+      matInput
+      formControlName="rentalPricePerDay"
+      required
+      type="number"
+    />
+
+    <!-- Add required and min validator for minimum value (adjust the value as needed) -->
+
+    <mat-error
+      *ngIf="carForm.controls['rentalPricePerDay'].hasError('required')"
+      >Rental Price is required.</mat-error
+    >
+
+    <mat-error *ngIf="carForm.controls['rentalPricePerDay'].hasError('min')"
+      >Rental Price must be at least 1.</mat-error
+    >
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" color="accent">
+    <mat-label>Registration Number</mat-label>
+
+    <input matInput formControlName="registrationNo" required />
+
+    <mat-error *ngIf="carForm.controls['registrationNo'].hasError('required')"
+      >Rental Price is required.</mat-error
+    >
+
+    <mat-error *ngIf="carForm.controls['registrationNo'].hasError('min')"
+      >Rental Price must be at least 1</mat-error
+    >
+
+  
+  </mat-form-field>
+
+
+  <button
+    mat-raised-button
+    color="accent"
+    [disabled]="carForm.invalid"
+    type="submit"
+    click="updateCar()"
+  >
+    Update Car
+  </button>
+</form>

@@ -1,0 +1,44 @@
+<h2>Add New Car</h2>
+<form [formGroup]="newCarForm" (ngSubmit)="addCar()" class="vertical-form">
+  <mat-form-field appearance="outline" color="accent">
+    <mat-label>Maker</mat-label>
+    <input matInput formControlName="maker" required />
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" color="accent">
+    <mat-label>Model</mat-label>
+    <input matInput formControlName="model" required />
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" color="accent">
+    <mat-label>Rental Price Per Day</mat-label>
+    <input
+      matInput
+      formControlName="rentalPricePerDay"
+      required
+      type="number"
+    />
+    <mat-error
+      *ngIf="newCarForm?.get('rentalPricePerDay')?.hasError('required')"
+    >
+      Rental Price is required.
+    </mat-error>
+    <mat-error *ngIf="newCarForm?.get('rentalPricePerDay')?.hasError('min')">
+      Rental Price must be greater than 0.
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" color="accent">
+    <mat-label>Registration Number</mat-label>
+    <input matInput formControlName="registrationNo" name="registrationNo" />
+  </mat-form-field>
+
+  <button
+    mat-raised-button
+    color="primary"
+    [disabled]="newCarForm.invalid"
+    type="submit"
+  >
+    Add Car
+  </button>
+</form>

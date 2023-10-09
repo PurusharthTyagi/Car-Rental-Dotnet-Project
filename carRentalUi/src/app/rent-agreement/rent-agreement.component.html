@@ -1,0 +1,34 @@
+<mat-card class="rent-card">
+  <mat-card-header>
+    <mat-card-title>Rent Agreement</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <h3>Car Details</h3>
+    <p><strong>Car ID:</strong> {{ carDetails.carId }}</p>
+    <p><strong>Maker:</strong> {{ carDetails.maker }}</p>
+    <p><strong>Model:</strong> {{ carDetails.model }}</p>
+    <p><strong>Registration Number:</strong> {{ carDetails.registrationNo }}</p>
+    <p>
+      <strong>Rental Price Per Day:</strong>
+      {{ carDetails.rentalPricePerDay | currency : "USD" }}
+    </p>
+    <p><strong>Start Date</strong> {{ startDate | date }}</p>
+    <p><strong>End Date:</strong> {{ endDate | date }}</p>
+
+    <!-- Display the Total Cost -->
+    <p><strong>Total Cost:</strong> {{ totalCost | currency : "USD" }}</p>
+    <br />
+    <p>
+      <em>
+        <h5>clicking "Confirm," you agree to the terms and conditions.</h5></em
+      >
+    </p>
+    <button mat-raised-button color="accent" (click)="confirmBooking()">
+      Confirm
+    </button>
+    <br />
+    <div class="back-button">
+      <button mat-raised-button-back (click)="goBack()">Back to view</button>
+    </div>
+  </mat-card-content>
+</mat-card>

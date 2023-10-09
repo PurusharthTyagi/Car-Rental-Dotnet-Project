@@ -1,0 +1,60 @@
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.deps.json
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.dll
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.AssemblyReference.cache
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfoInputs.cache
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfo.cs
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.CoreCompileInputs.cache
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.dll
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\obj\Debug\net6.0\refint\CarRental.Shared.dll
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\sarthakvashishtha\Desktop\Car Rental\CarRental.Shared\obj\Debug\net6.0\ref\CarRental.Shared.dll
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.deps.json
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.dll
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.AssemblyReference.cache
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfoInputs.cache
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfo.cs
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.CoreCompileInputs.cache
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.dll
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\obj\Debug\net6.0\refint\CarRental.Shared.dll
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\sarthakvashishtha\Desktop\Car Rental\Backend\CarRental.Shared\obj\Debug\net6.0\ref\CarRental.Shared.dll
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.deps.json
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.dll
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.AssemblyReference.cache
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfoInputs.cache
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfo.cs
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.CoreCompileInputs.cache
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.dll
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\obj\Debug\net6.0\refint\CarRental.Shared.dll
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\gulshandubey\Desktop\dotnet-mini-assignment\Backend\CarRental.Shared\obj\Debug\net6.0\ref\CarRental.Shared.dll
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.deps.json
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.dll
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.AssemblyReference.cache
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfoInputs.cache
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfo.cs
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.CoreCompileInputs.cache
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.dll
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\refint\CarRental.Shared.dll
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\purusharthtyagi\OneDrive - Nagarro\Desktop\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\ref\CarRental.Shared.dll
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.deps.json
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.dll
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\bin\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.AssemblyReference.cache
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfoInputs.cache
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.AssemblyInfo.cs
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.csproj.CoreCompileInputs.cache
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.dll
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\refint\CarRental.Shared.dll
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\CarRental.Shared.pdb
+C:\Users\purusharthtyagi\Downloads\PurusharthTyagi_01-03-23\Backend\CarRental.Shared\obj\Debug\net6.0\ref\CarRental.Shared.dll

@@ -1,0 +1,111 @@
+/* car-view.component.css */
+
+.container {
+  padding-left: 2%;
+
+  margin-top: 20px;
+}
+
+.card {
+  padding: 2%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px; /* Add spacing between cards */
+  transition: transform 0.2s ease-in-out;
+  width: calc(33.33% - 10px); /* Set the width for three cards in a row */
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(238, 233, 233, 0.785);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px; /* Offset the margin added to individual cards */
+}
+
+/* Optional: Add media queries for responsive design */
+@media (max-width: 768px) {
+  .card {
+    width: calc(50% - 10px); /* Adjust the width for smaller screens */
+  }
+}
+
+/* Add this CSS to your component's stylesheet */
+
+/* Style for the search form */
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style for the expansion panel */
+.mat-expansion-panel {
+  margin-bottom: 20px;
+}
+.but {
+  padding: auto;
+  margin-top: 20px;
+}
+.b {
+  padding: auto;
+  margin: 10px;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #7b1fa2;
+}
+
+table tr:nth-child(even) {
+  background-color: #7b1fa2;
+}
+
+table th,
+table td {
+  border: 1px solid #fff;
+}
+
+/* Style for the search button icon */
+mat-icon {
+  font-size: 20px;
+}
+/* warehouse.component.css */
+
+.accent-button {
+  background-color: rgb(21, 132, 21);
+  color: white;
+}
+
+/* You can adjust other styles as needed */
+
+.filters {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+}

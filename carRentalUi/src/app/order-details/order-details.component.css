@@ -1,0 +1,55 @@
+/* Style for the car details container */
+.car-details-container {
+  background-color: #7b1fa2;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 4% auto;
+  text-align: center;
+}
+
+/* Style for the heading */
+.car-details-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Style for the table */
+.car-details-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+
+/* Style for table cells */
+.car-details-container td {
+  padding: 10px;
+}
+
+/* Style for strong tags within table cells */
+.car-details-container td strong {
+  font-weight: bold;
+}
+
+/* Style for the input field and button */
+.mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style for the button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #8d7298;
+}
